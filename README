@@ -1,22 +1,25 @@
-#################################################################################
-#       																	    #
-#       Created By: Andreas Christodoulou									    #
-#       First Release: 12/05/2012         										#
-#       Website: http://www.digitzone.net									    #
-#       Description: The application was found in the below url started by      #
-#                    Seven Kevins using the MVC design pattern and I improve    # 
-#                    it by adding Smarty Template engine						#	
-#					 reading from a configuration ini file      				#
-#       Url: http://www.phpro.org/tutorials/Model-View-Controller-MVC.html      #
-#################################################################################
+#########################################################################
+#       																#
+#       Created By: Andreas Christodoulou								#
+#       First Release: 12/05/2012         								#
+#       Website: http://www.digitzone.net								#
+#       Description: The application was found in the below url			# 
+#					 started by Seven Kevins using the MVC design 		#
+#					 pattern and I improve it by adding Smarty Template #
+#					 engine 											#	
+#					 reading from a configuration ini file      		#
+#       Url: 															#
+# 		http://www.phpro.org/tutorials/Model-View-Controller-MVC.html   #
+#########################################################################
 
-#################################################################################
-#       HOW TO INSTALL THE APPLICATION                                          #
-#################################################################################
+#########################################################################
+#       HOW TO INSTALL THE APPLICATION                                  #
+#########################################################################
 
 1. PHP Version 5.3.0 >
 2. rewrite_module must be enable on apache server
-3. Add the following line inside httpd.conf (this is for the application to know what configuration to use dev/pro) 
+3. Add the following line inside httpd.conf (this is for the application 
+   to know what configuration to use dev/pro) 
    
    -----> SetEnv APPLICATION_ENV "development"
    
@@ -30,15 +33,18 @@
 	</VirtualHost>
    
    
-4. Copy/paste the content of directory [public_html] into the public folder, that 
-   can be www or public that is accessible through the browser
-5. Copy/paste the directory [app] outside of the www or public that is not accessible 
-   through the browser for security reason, no need to expose the application to the 
-   visitors.
+4. Copy/paste the content of directory [public_html] into the public 
+	folder, that can be www or public that is accessible through the 
+	browser.
+5. Copy/paste the directory [app] outside of the www or public that is 
+	not accessible through the browser for security reason, no need to 
+	expose the application to the visitors.
 6. Browse the application   
 
 	[Default] http://localhost/CMS_MVC_1.0/ 
-	#It will make a call to app/controllers/indexController.php and as no action is defined on url parameters it will call the index() method by default.
+	#It will make a call to app/controllers/indexController.php and as no 
+	action is defined on url parameters it will call the index() method 
+	by default.
 
 	http://localhost/CMS_MVC_1.0/blog/view
 	
@@ -48,9 +54,9 @@
 	[controller] blog
 	[action] view
 	
-#################################################################################
-#       FEATURES					                                            #
-#################################################################################
+#########################################################################
+#       FEATURES					                                    #
+#########################################################################
 
 # MVC Pattern
 # Friendly Urls
