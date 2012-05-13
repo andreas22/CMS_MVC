@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/Dev/!svn/ver/69/WebStudio.v2.inUse/Framework/external/Log4php/configurators
+END
+LoggerConfiguratorPhp.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/Dev/!svn/ver/69/WebStudio.v2.inUse/Framework/external/Log4php/configurators/LoggerConfiguratorPhp.php
+END
+LoggerConfiguratorIni.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/Dev/!svn/ver/69/WebStudio.v2.inUse/Framework/external/Log4php/configurators/LoggerConfiguratorIni.php
+END
+LoggerConfiguratorXml.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/Dev/!svn/ver/69/WebStudio.v2.inUse/Framework/external/Log4php/configurators/LoggerConfiguratorXml.php
+END
+LoggerConfiguratorBasic.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/Dev/!svn/ver/69/WebStudio.v2.inUse/Framework/external/Log4php/configurators/LoggerConfiguratorBasic.php
+END

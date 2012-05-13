@@ -1,3 +1,5 @@
 .settings
 .buildpath
 .project
+app/logs/*
+app/views_c/*

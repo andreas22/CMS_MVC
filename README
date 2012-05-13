@@ -1,20 +1,45 @@
-#########################################################################
-#       																#
-#       Created By: Andreas Christodoulou								#
-#       First Release: 12/05/2012         								#
-#       Website: http://www.digitzone.net								#
-#       Description: The application was found in the below url			# 
-#					 started by Seven Kevins using the MVC design 		#
-#					 pattern and I improve it by adding Smarty Template #
-#					 engine 											#	
-#					 reading from a configuration ini file      		#
-#       Url: 															#
-# 		http://www.phpro.org/tutorials/Model-View-Controller-MVC.html   #
-#########################################################################
+/********************************************************************************
+ *       																		*
+ *       Created By: Andreas Christodoulou										*
+ *       First Release: 12/05/2012         										*
+ *       Website: http://www.digitzone.net										*
+ *       Description: The application was found in the below url				*  
+ *					 started by Seven Kevins using the MVC design 				* 
+ *					 pattern and I improve it by adding Smarty Template 		*
+ *					 engine 													*	
+ *					 reading from a configuration ini file      				*
+ *       Url: 																	*
+ * 		http://www.phpro.org/tutorials/Model-View-Controller-MVC.html   		*
+ *******************************************************************************/
 
-#########################################################################
-#       HOW TO INSTALL THE APPLICATION                                  #
-#########################################################################
+/********************************************************************************
+ * The MIT License (MIT)														*			
+ * 																				*
+ * Copyright (c) <year> <copyright holders>										*
+ * 																				*
+ * Permission is hereby granted, free of charge, to any person obtaining 		* 
+ * a copy of this software and associated documentation files 					* 	
+ * (the "Software"), to deal in the Software without restriction, including 	*
+ * without limitation the rights to use, copy, modify, merge, publish, 			*
+ * distribute, sublicense, and/or sell copies of the Software, and to permit 	*
+ * persons to whom the Software is furnished to do so, subject to the 			*
+ * following conditions:														*
+ *																				*
+ * The above copyright notice and this permission notice shall be included in  	*
+ * all copies or substantial portions of the Software.							*
+ * 																				*			
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS 		*
+ * OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, 	*
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL 		*
+ * THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER 	*
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING 		*
+ * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS * 
+ * IN THE SOFTWARE.																*
+ ********************************************************************************/
+
+/********************************************************************************
+ *       HOW TO INSTALL THE APPLICATION           			                    *
+ ********************************************************************************/
 
 1. PHP Version 5.3.0 >
 2. rewrite_module must be enable on apache server
@@ -39,10 +64,11 @@
 5. Copy/paste the directory [app] outside of the www or public that is 
 	not accessible through the browser for security reason, no need to 
 	expose the application to the visitors.
+6. change permissions of folder views_c to [chmod -r 777 views_c]	
 6. Browse the application   
 
 	[Default] http://localhost/CMS_MVC_1.0/ 
-	#It will make a call to app/controllers/indexController.php and as no 
+	*It will make a call to app/controllers/indexController.php and as no 
 	action is defined on url parameters it will call the index() method 
 	by default.
 
@@ -54,12 +80,12 @@
 	[controller] blog
 	[action] view
 	
-#########################################################################
-#       FEATURES					                                    #
-#########################################################################
+/********************************************************************************
+ *       FEATURES    			                    							*
+ ********************************************************************************/
 
-# MVC Pattern
-# Friendly Urls
-# Smarty Template Engine ver. 3.1.8	/app/lib/Smarty-3.1.8
-# Reading configuration from a single file app/conf/application.ini
-# Database connection through PDO	
+* MVC Pattern
+* Friendly Urls
+* Smarty Template Engine ver. 3.1.8	/app/lib/Smarty-3.1.8
+* Reading configuration from a single file app/conf/application.ini
+* Database connection through PDO	

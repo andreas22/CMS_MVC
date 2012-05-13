@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/Dev/!svn/ver/69/WebStudio.v2.inUse/Framework/external/Log4php/layouts
+END
+LoggerLayoutPattern.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/Dev/!svn/ver/69/WebStudio.v2.inUse/Framework/external/Log4php/layouts/LoggerLayoutPattern.php
+END
+LoggerLayoutTTCC.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/Dev/!svn/ver/69/WebStudio.v2.inUse/Framework/external/Log4php/layouts/LoggerLayoutTTCC.php
+END
+LoggerLayoutXml.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/Dev/!svn/ver/69/WebStudio.v2.inUse/Framework/external/Log4php/layouts/LoggerLayoutXml.php
+END
+LoggerLayoutHtml.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/Dev/!svn/ver/69/WebStudio.v2.inUse/Framework/external/Log4php/layouts/LoggerLayoutHtml.php
+END
+LoggerLayoutSimple.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/Dev/!svn/ver/69/WebStudio.v2.inUse/Framework/external/Log4php/layouts/LoggerLayoutSimple.php
+END

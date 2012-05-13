@@ -5,9 +5,11 @@ error_reporting(E_ALL);
 /*** define the site path ***/
 $site_path = str_replace('public_html', '', realpath(dirname(__FILE__)));
 define ('__SITE_PATH', $site_path);
+define ('__VALID_ENTRY', true);
 
 include_once 'init.php';
 
+$log = Log::getInstance('app');
 $registry->env = (isset($_SERVER['APPLICATION_ENV']) && $_SERVER['APPLICATION_ENV'] == 'development') ? 'dev' : 'pro';
 
 /*** create the database registry object ***/

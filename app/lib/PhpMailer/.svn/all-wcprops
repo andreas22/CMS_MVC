@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/Dev/!svn/ver/69/WebStudio.v2.inUse/Framework/external/PhpMailer
+END
+class.phpmailer.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Dev/!svn/ver/69/WebStudio.v2.inUse/Framework/external/PhpMailer/class.phpmailer.php
+END
+class.pop3.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Dev/!svn/ver/69/WebStudio.v2.inUse/Framework/external/PhpMailer/class.pop3.php
+END
+class.smtp.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Dev/!svn/ver/69/WebStudio.v2.inUse/Framework/external/PhpMailer/class.smtp.php
+END

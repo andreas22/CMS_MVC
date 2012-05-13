@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/Dev/!svn/ver/69/WebStudio.v2.inUse/Framework/external/Log4php/appenders
+END
+LoggerAppenderNull.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/Dev/!svn/ver/69/WebStudio.v2.inUse/Framework/external/Log4php/appenders/LoggerAppenderNull.php
+END
+LoggerAppenderEcho.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/Dev/!svn/ver/69/WebStudio.v2.inUse/Framework/external/Log4php/appenders/LoggerAppenderEcho.php
+END
+LoggerAppenderFile.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/Dev/!svn/ver/69/WebStudio.v2.inUse/Framework/external/Log4php/appenders/LoggerAppenderFile.php
+END
+LoggerAppenderSyslog.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/Dev/!svn/ver/69/WebStudio.v2.inUse/Framework/external/Log4php/appenders/LoggerAppenderSyslog.php
+END
+LoggerAppenderConsole.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/Dev/!svn/ver/69/WebStudio.v2.inUse/Framework/external/Log4php/appenders/LoggerAppenderConsole.php
+END
+LoggerAppenderDailyFile.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/Dev/!svn/ver/69/WebStudio.v2.inUse/Framework/external/Log4php/appenders/LoggerAppenderDailyFile.php
+END
+LoggerAppenderMail.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/Dev/!svn/ver/69/WebStudio.v2.inUse/Framework/external/Log4php/appenders/LoggerAppenderMail.php
+END
+LoggerAppenderPDO.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/Dev/!svn/ver/69/WebStudio.v2.inUse/Framework/external/Log4php/appenders/LoggerAppenderPDO.php
+END
+LoggerAppenderMailEvent.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/Dev/!svn/ver/69/WebStudio.v2.inUse/Framework/external/Log4php/appenders/LoggerAppenderMailEvent.php
+END
+LoggerAppenderRollingFile.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/Dev/!svn/ver/69/WebStudio.v2.inUse/Framework/external/Log4php/appenders/LoggerAppenderRollingFile.php
+END
+LoggerAppenderPhp.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/Dev/!svn/ver/69/WebStudio.v2.inUse/Framework/external/Log4php/appenders/LoggerAppenderPhp.php
+END
+LoggerAppenderSocket.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/Dev/!svn/ver/69/WebStudio.v2.inUse/Framework/external/Log4php/appenders/LoggerAppenderSocket.php
+END
+LoggerAppenderAdodb.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/Dev/!svn/ver/69/WebStudio.v2.inUse/Framework/external/Log4php/appenders/LoggerAppenderAdodb.php
+END

@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/Dev/!svn/ver/69/WebStudio.v2.inUse/Framework/external/Log4php
+END
+LoggerException.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Dev/!svn/ver/69/WebStudio.v2.inUse/Framework/external/Log4php/LoggerException.php
+END
+LoggerAppender.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/Dev/!svn/ver/69/WebStudio.v2.inUse/Framework/external/Log4php/LoggerAppender.php
+END
+LoggerConfigurator.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Dev/!svn/ver/69/WebStudio.v2.inUse/Framework/external/Log4php/LoggerConfigurator.php
+END
+LoggerMDC.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/Dev/!svn/ver/69/WebStudio.v2.inUse/Framework/external/Log4php/LoggerMDC.php
+END
+LoggerNDC.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/Dev/!svn/ver/69/WebStudio.v2.inUse/Framework/external/Log4php/LoggerNDC.php
+END
+LoggerLevel.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/Dev/!svn/ver/69/WebStudio.v2.inUse/Framework/external/Log4php/LoggerLevel.php
+END
+LoggerReflectionUtils.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/Dev/!svn/ver/69/WebStudio.v2.inUse/Framework/external/Log4php/LoggerReflectionUtils.php
+END
+LoggerLayout.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Dev/!svn/ver/69/WebStudio.v2.inUse/Framework/external/Log4php/LoggerLayout.php
+END
+LoggerHierarchy.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Dev/!svn/ver/69/WebStudio.v2.inUse/Framework/external/Log4php/LoggerHierarchy.php
+END
+Logger.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/Dev/!svn/ver/69/WebStudio.v2.inUse/Framework/external/Log4php/Logger.php
+END
+LoggerRoot.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/Dev/!svn/ver/69/WebStudio.v2.inUse/Framework/external/Log4php/LoggerRoot.php
+END
+LoggerLocationInfo.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Dev/!svn/ver/69/WebStudio.v2.inUse/Framework/external/Log4php/LoggerLocationInfo.php
+END
+LoggerFilter.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Dev/!svn/ver/69/WebStudio.v2.inUse/Framework/external/Log4php/LoggerFilter.php
+END
+LoggerAppenderPool.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Dev/!svn/ver/69/WebStudio.v2.inUse/Framework/external/Log4php/LoggerAppenderPool.php
+END
+LoggerLoggingEvent.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Dev/!svn/ver/69/WebStudio.v2.inUse/Framework/external/Log4php/LoggerLoggingEvent.php
+END
