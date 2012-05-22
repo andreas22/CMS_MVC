@@ -1,45 +1,44 @@
-/********************************************************************************
- *       																		*
- *       Created By: Andreas Christodoulou										*
- *       First Release: 12/05/2012         										*
- *       Website: http://www.digitzone.net										*
- *       Description: The application was found in the below url				*  
- *					 started by Seven Kevins using the MVC design 				* 
- *					 pattern and I improve it by adding Smarty Template 		*
- *					 engine 													*	
- *					 reading from a configuration ini file      				*
- *       Url: 																	*
- * 		http://www.phpro.org/tutorials/Model-View-Controller-MVC.html   		*
- *******************************************************************************/
+/****************************************************************************		
+ *       																	*
+ *       Created By: Andreas Christodoulou									*
+ *       First Release: 12/05/2012         									*
+ *       Website: http://www.digitzone.net									*
+ *       Description: The application was found in the below url			*  
+ *					 started by Seven Kevins using the MVC design 			* 
+ *					 pattern and I improve it by adding Smarty Template 	*
+ *					 engine 												*	
+ *					 reading from a configuration ini file      			*
+ *       Url: 																*
+ * 		 http://www.phpro.org/tutorials/Model-View-Controller-MVC.html   	*
+ ****************************************************************************/
 
-/********************************************************************************
- * The MIT License (MIT)														*			
- * 																				*
- * Copyright (c) <2012> <Andreas Christodoulou>									*
- * 																				*
- * Permission is hereby granted, free of charge, to any person obtaining 		* 
- * a copy of this software and associated documentation files 					* 	
- * (the "Software"), to deal in the Software without restriction, including 	*
- * without limitation the rights to use, copy, modify, merge, publish, 			*
- * distribute, sublicense, and/or sell copies of the Software, and to permit 	*
- * persons to whom the Software is furnished to do so, subject to the 			*
- * following conditions:														*
- *																				*
- * The above copyright notice and this permission notice shall be included in  	*
- * all copies or substantial portions of the Software.							*
- * 																				*			
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS 		*
- * OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, 	*
- * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL 		*
- * THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER 	*
- * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING 		*
- * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS * 
- * IN THE SOFTWARE.																*
- ********************************************************************************/
+/****************************************************************************
+ * The MIT License (MIT)													*				
+ ****************************************************************************/																			
+ * Copyright (c) <2012> <Andreas Christodoulou>									
+ * 																				
+ * Permission is hereby granted, free of charge, to any person obtaining 		 
+ * a copy of this software and associated documentation files 					 	
+ * (the "Software"), to deal in the Software without restriction, including 	
+ * without limitation the rights to use, copy, modify, merge, publish, 			
+ * distribute, sublicense, and/or sell copies of the Software, and to permit 	
+ * persons to whom the Software is furnished to do so, subject to the 			
+ * following conditions:														
+ *																			
+ * The above copyright notice and this permission notice shall be included in  	
+ * all copies or substantial portions of the Software.							
+ * 																						
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS 		
+ * OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, 	
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL 		
+ * THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER 	
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING 	
+ * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS 
+ * IN THE SOFTWARE.																
 
-/********************************************************************************
- *       HOW TO INSTALL THE APPLICATION           			                    *
- ********************************************************************************/
+/****************************************************************************
+ *       HOW TO INSTALL THE APPLICATION           			              	*
+ ****************************************************************************/
 
 1. PHP Version 5.3.0 >
 2. rewrite_module must be enable on apache server
@@ -79,13 +78,3 @@
 	[www] http://localhost/CMS_MVC_1.0/
 	[controller] blog
 	[action] view
-	
-/********************************************************************************
- *       FEATURES    			                    							*
- ********************************************************************************/
-
-* MVC Pattern
-* Friendly Urls
-* Smarty Template Engine ver. 3.1.8	/app/lib/Smarty-3.1.8
-* Reading configuration from a single file app/conf/application.ini
-* Database connection through PDO	
