@@ -1,3 +1,6 @@
-<h1>{$blog_heading}</h1>
+{extends 'template.tpl'}
 
-<p>{$blog_content}</p>
+{block name=body}
+  <h1>{$blog_heading}</h1>
+  {$blog_content}
+{/block}

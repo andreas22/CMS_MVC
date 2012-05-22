@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------------
+
+  2012-05-22																
+
+* Active Records added
+* Class db.class.php is removed as AR replaced it
+* Methods assign & show added in abstract class baseController for flexibility
+* JQUERY min 1.7.2 added 
+
+-------------------------------------------------------------------------------------

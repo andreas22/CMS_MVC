@@ -3,7 +3,7 @@ if(!defined('__VALID_ENTRY') || !__VALID_ENTRY) die('This is not a valid entry p
 /********************************************************************************
  * The MIT License (MIT)														*			
  * 																				*
- * Copyright (c) <year> <copyright holders>										*
+ * Copyright (c) <2012> <Andreas Christodoulou>									*
  * 																				*
  * Permission is hereby granted, free of charge, to any person obtaining 		* 
  * a copy of this software and associated documentation files 					* 	
@@ -28,17 +28,15 @@ if(!defined('__VALID_ENTRY') || !__VALID_ENTRY) die('This is not a valid entry p
 Class blogController Extends baseController {
 
 	public function index() 
-	{
-	        $this->registry->template->blog_heading = 'This is the blog Index';
-	        $this->registry->template->show('blog_index');
+	{	
+		$this->assign('blog_heading', 'This is the blog');		
+		$this->show('blog_index');
 	}
-	
-	
-	public function view($userId = 0, $name = null){
-		/*** should not have to call this here.... FIX ME ***/	
-		$this->registry->template->blog_heading = 'This is the blog heading';
-		$this->registry->template->blog_content = 'This is the blog content';
-		$this->registry->template->show('blog_view');
+		
+	public function view($userId = 0, $categoryId = null){		
+		$this->assign('blog_heading', 'This is the blog heading');
+		$this->assign('blog_content', 'This is the blog content');
+		$this->show('blog_view');
 	}
 }
 ?>

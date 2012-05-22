@@ -3,7 +3,7 @@ if(!defined('__VALID_ENTRY') || !__VALID_ENTRY) die('This is not a valid entry p
 /********************************************************************************
  * The MIT License (MIT)														*			
  * 																				*
- * Copyright (c) <year> <copyright holders>										*
+ * Copyright (c) <2012> <Andreas Christodoulou>									*
  * 																				*
  * Permission is hereby granted, free of charge, to any person obtaining 		* 
  * a copy of this software and associated documentation files 					* 	
@@ -29,8 +29,8 @@ Class error404Controller Extends baseController {
 	
 	public function index() 
 	{
-	        $this->registry->template->blog_heading = 'This is the 404';
-	        $this->registry->template->show('error404');
+	    $this->assign('blog_heading', 'This is the 404');
+		$this->show('error404');
 	}
 }
 ?>

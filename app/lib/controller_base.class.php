@@ -3,7 +3,7 @@ if(!defined('__VALID_ENTRY') || !__VALID_ENTRY) die('This is not a valid entry p
 /********************************************************************************
  * The MIT License (MIT)														*			
  * 																				*
- * Copyright (c) <year> <copyright holders>										*
+ * Copyright (c) <2012> <Andreas Christodoulou>									*
  * 																				*
  * Permission is hereby granted, free of charge, to any person obtaining 		* 
  * a copy of this software and associated documentation files 					* 	
@@ -34,6 +34,25 @@ Abstract Class baseController {
 	
 	function __construct($registry) {
 		$this->registry = $registry;
+	}
+	
+	/**
+	 * 
+	 * Can be used to create a variable and used by template engine
+	 * @param string $var
+	 * @param mixed $value
+	 */
+	public function assign($var, $value = null){
+		$this->registry->template->$var = $value;
+	}
+	
+	/**
+	 * 
+	 * Its purpose is to display the specified template
+	 * @param string $template
+	 */
+	public function show($template){
+		$this->registry->template->show($template);
 	}
 	
 	/**

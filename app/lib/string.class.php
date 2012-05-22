@@ -25,16 +25,23 @@ if(!defined('__VALID_ENTRY') || !__VALID_ENTRY) die('This is not a valid entry p
  * IN THE SOFTWARE.																*
  ********************************************************************************/
 
-Class indexController Extends baseController {
-	
-	public function index() {
-	    $this->assign('page_title', 'page title');
-	    $this->assign('page_description', 'page description');
-	    $this->assign('page_keywords', 'page keywords');
-	    $this->assign('page_copyrights', 'page_copyrights');
-	    $this->assign('page_author', 'page author');
-	    $this->assign('page_mytitle', 'My Title');
-		$this->show('home');
+class String {	
+	/**
+	 * 
+	 * Can be used to replace sprintf, c# style
+	 * @example String::format('{2} {0} {1}', $name, $surname, $welcome);
+	 */
+	public static function format() {
+	    $args = func_get_args();
+	    if (count($args) == 0) {
+	        return;
+	    }
+	    if (count($args) == 1) {
+	        return $args[0];
+	    }
+	    $str = array_shift($args);
+	    $str = preg_replace_callback('/\\{(0|[1-9]\\d*)\\}/', create_function('$match', '$args = '.var_export($args, true).'; return isset($args[$match[1]]) ? $args[$match[1]] : $match[0];'), $str);
+	    return $str;
 	}
 }
 

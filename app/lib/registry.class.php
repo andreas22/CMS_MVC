@@ -3,7 +3,7 @@ if(!defined('__VALID_ENTRY') || !__VALID_ENTRY) die('This is not a valid entry p
 /********************************************************************************
  * The MIT License (MIT)														*			
  * 																				*
- * Copyright (c) <year> <copyright holders>										*
+ * Copyright (c) <2012> <Andreas Christodoulou>									*
  * 																				*
  * Permission is hereby granted, free of charge, to any person obtaining 		* 
  * a copy of this software and associated documentation files 					* 	

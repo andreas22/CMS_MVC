@@ -1,5 +1,5 @@
 {extends 'template.tpl'}
 
 {block name=body}
-  <h1>{$blog_heading}</h1>
+  <h1>{$page_mytitle}</h1>
 {/block}
