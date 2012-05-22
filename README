@@ -1,19 +1,18 @@
-/****************************************************************************		
- *       																	*
- *       Created By: Andreas Christodoulou									*
- *       First Release: 12/05/2012         									*
- *       Website: http://www.digitzone.net									*
- *       Description: The application was found in the below url			*  
- *					 started by Seven Kevins using the MVC design 			* 
- *					 pattern and I improve it by adding Smarty Template 	*
- *					 engine 												*	
- *					 reading from a configuration ini file      			*
- *       Url: 																*
- * 		 http://www.phpro.org/tutorials/Model-View-Controller-MVC.html   	*
- ****************************************************************************/
+		
+        										
+        Created By: Andreas Christodoulou								
+        First Release: 12/05/2012         									
+        Website: http://www.digitzone.net									
+        Description: The application was found in the below url						 
+ 					 started by Seven Kevins using the MVC design 				
+ 					 pattern and I improve it by adding Smarty Template 			
+ 					 engine 									
+ 					 reading from a configuration ini file      				
+        Url:  http://www.phpro.org/tutorials/Model-View-Controller-MVC.html   				
 
-/****************************************************************************
- * The MIT License (MIT)													*				
+
+/****************************************************************************/
+ * The MIT License (MIT)																	
  ****************************************************************************/																			
  * Copyright (c) <2012> <Andreas Christodoulou>									
  * 																				
@@ -36,9 +35,9 @@
  * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS 
  * IN THE SOFTWARE.																
 
-/****************************************************************************
- *       HOW TO INSTALL THE APPLICATION           			              	*
- ****************************************************************************/
+/****************************************************************************/
+   HOW TO INSTALL THE APPLICATION           			              	
+
 
 1. PHP Version 5.3.0 >
 2. rewrite_module must be enable on apache server
